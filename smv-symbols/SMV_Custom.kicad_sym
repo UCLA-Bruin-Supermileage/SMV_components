@@ -3041,7 +3041,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "RP"
-			(at -1.016 39.624 0)
+			(at 0 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3134,7 +3134,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.715 -17.145) (xy 4.445 -17.145)
+					(xy -5.08 -17.78) (xy 5.08 -17.78)
 				)
 				(stroke
 					(width 0.254)
@@ -3146,7 +3146,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.715 -9.525) (xy -5.715 -17.145)
+					(xy -5.08 -10.16) (xy -5.08 -17.78)
 				)
 				(stroke
 					(width 0.254)
@@ -3158,7 +3158,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 -17.145) (xy 4.445 -9.525)
+					(xy 5.08 -17.78) (xy 5.08 -10.16)
 				)
 				(stroke
 					(width 0.254)
@@ -3170,7 +3170,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 -9.525) (xy -5.715 -9.525)
+					(xy 5.08 -10.16) (xy -5.08 -10.16)
 				)
 				(stroke
 					(width 0.254)
@@ -3247,7 +3247,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.175 -19.685 90)
+				(at -2.54 -20.32 90)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -3481,7 +3481,7 @@
 				)
 			)
 			(pin passive line
-				(at -0.635 -19.685 90)
+				(at 0 -20.32 90)
 				(length 5.08)
 				(name "2"
 					(effects
@@ -3535,7 +3535,7 @@
 				)
 			)
 			(pin passive line
-				(at 1.905 -19.685 90)
+				(at 2.54 -20.32 90)
 				(length 5.08)
 				(name "3"
 					(effects
