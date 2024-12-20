@@ -691,7 +691,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "C0805"
+		(property "Footprint" "SMV_Passives:Cap0805"
 			(at 8.89 -96.19 0)
 			(effects
 				(font
@@ -900,7 +900,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "C0805"
+		(property "Footprint" "SMV_Passives:Cap0805"
 			(at 8.89 -96.19 0)
 			(effects
 				(font
@@ -1109,7 +1109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC220145_100N_KEM"
+		(property "Footprint" "SMV_Passives:Cap0805"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1136,14 +1136,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "C0805C105K4RACTU"
@@ -1360,7 +1352,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "C0805"
+		(property "Footprint" "SMV_Passives:Cap0805"
 			(at 8.89 -96.19 0)
 			(effects
 				(font
@@ -1571,7 +1563,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CRCW080510K0FKEAC:RESC2012X60N"
+		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1851,7 +1843,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "GCM188R71H104KA57D:CAPC1608X90N"
+		(property "Footprint" "SMV_Passives:0805RESC2012X60N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1963,7 +1955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC_DBVRQ1_TEX"
+		(property "Footprint" "SMV_ICs:SOIC_DBVRQ1_TEX"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1990,14 +1982,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "INA181A1QDBVRQ1"
@@ -2200,7 +2184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-89_STM"
+		(property "Footprint" "SMV_Passives:SOT-89_STM"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2227,14 +2211,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "L78L05ABUTR"
@@ -2382,7 +2358,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "0430450401"
+		(property "Footprint" "SMV_Connectors:4_pin0430450401"
 			(at 16.51 -94.92 0)
 			(effects
 				(font
@@ -2570,7 +2546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP20_PW_TEX"
+		(property "Footprint" "SMV_ICs:TSSOP20_PW_TEX"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2597,14 +2573,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "PADS131M04QPWRQ1"
@@ -3811,7 +3779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WSON6_DRV_TEX"
+		(property "Footprint" "SMV_ICs:WSON6_DRV_TEX"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3838,14 +3806,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "TPS74501PBQWDRVRQ1"
@@ -4043,6 +4003,209 @@
 			)
 		)
 	)
+	(symbol "UA78M05QDCYRG4Q1"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 22.86 10.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "UA78M05QDCYRG4Q1"
+			(at 24.13 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DCY4_TEX"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "UA78M05QDCYRG4Q1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "UA78M05QDCYRG4Q1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "DCY4_TEX DCY4_TEX-M DCY4_TEX-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "UA78M05QDCYRG4Q1_0_1"
+			(polyline
+				(pts
+					(xy 7.62 -7.62) (xy 38.1 -7.62)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 5.08) (xy 7.62 -7.62)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 38.1 -7.62) (xy 38.1 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 38.1 5.08) (xy 7.62 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin output line
+				(at 0 0 0)
+				(length 7.62)
+				(name "OUTPUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -2.54 0)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 45.72 -2.54 180)
+				(length 7.62)
+				(name "INPUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "UA78M05QDCYRG4Q1_1_1"
+			(pin unspecified line
+				(at 45.72 0 180)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "XT60-M"
 		(pin_names
 			(offset 1.016)
@@ -4068,7 +4231,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "XT60-M:AMASS_XT60-M"
+		(property "Footprint" "SMV_Connectors:AMASS_XT60-M"
 			(at 0 0 0)
 			(effects
 				(font
