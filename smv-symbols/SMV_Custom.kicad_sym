@@ -17264,7 +17264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMV_ICs:LT3012EFE#PBF"
+		(property "Footprint" "SMV_ICs:LT3012_TSSOP16"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17658,6 +17658,8 @@
 					)
 				)
 			)
+		)
+		(symbol "PMIC_LT3012EFE_1_1"
 			(pin power_in line
 				(at 60.96 0 180)
 				(length 7.62)
@@ -17668,7 +17670,7 @@
 						)
 					)
 				)
-				(number "17"
+				(number "EPAD"
 					(effects
 						(font
 							(size 1.27 1.27)
